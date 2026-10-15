@@ -1,0 +1,79 @@
+body {
+    background-color:azure;
+}
+.image {
+    border-radius: 100%;
+    border: 3px solid black;
+    margin-right: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 10px rgb(255, 181, 239);
+}
+.name {
+    text-align: center;
+    color: white;
+}
+.gthieu {
+    text-align: center;
+    color: white; 
+}
+.nav {
+    text-align: center;
+}
+nav a:hover {
+    color: brown;
+}
+a {
+    color: rgb(160, 228, 228);
+    text-decoration: none;
+}
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(57, 168, 168);
+    height: 120px;
+    width: 1000px;
+    transition: box-shadow 0.3 ease, transform 0.3 ease;
+}
+.header:hover {
+    box-shadow: 0 8px 20px rgb(14, 35, 72);
+    transform: translateY(-4px);
+}
+section {
+    margin-left: 120px;
+}
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h2 {
+    color: rgb(0, 138, 92);
+}
+button {
+    margin-left: 600px;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(2, 138, 122);
+    transition: transform 0.2 ease, background-color 0.2 ease;
+    border-radius: 10%;
+    color: beige;
+    font-weight: bolder;
+    text-align: center;
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(3, 97, 104); 
+
+}
+.headtb {
+    background-color:rgb(56, 207, 182);
+    color: rgb(9, 69, 69);
+}
+.bodytb {
+    background-color: rgb(207, 248, 248);
+    color: rgb(45, 82, 69);
+}
+strong {
+    color:  rgb(0, 138, 92);
+}
